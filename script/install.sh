@@ -7,11 +7,14 @@ pip install -e git+https://github.com/IDEA-Research/GroundingDINO.git@main#egg=G
 
 # Install other lib
 pip install numpy opencv-python pycocotools matplotlib Pillow scikit-image
-pip install gradio zip gdown ffmpeg
+pip install gradio gdown ffmpeg
+apt-get install zip
 
-# Install Pytorch Correlation
-git clone https://github.com/ClementPinard/Pytorch-Correlation-extension.git
-cd Pytorch-Correlation-extension
-python setup.py install
-cd -
+pip install spatial_correlation_sampler
+
+# # Install Pytorch Correlation
+# git clone https://github.com/ClementPinard/Pytorch-Correlation-extension.git
+# cd Pytorch-Correlation-extension
+# python setup.py install
+# cd -
 

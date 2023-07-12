@@ -225,6 +225,7 @@ class SegTracker():
         '''
         # backup id and origin-merged-mask
         bc_id = self.curr_idx
+        refined_merged_mask = None
         bc_mask = self.origin_merged_mask
 
         # get annotated_frame and boxes
